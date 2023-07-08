@@ -4,10 +4,12 @@ import json
 from supabase import create_client, Client
 from datetime import datetime
 
+#Replace with ur supabase
+supabaseUrl = #Replace with ur supabase
 
-supabaseUrl = 'https://akeigbrucshrixrmecks.supabase.co'
-supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFrZWlnYnJ1Y3Nocml4cm1lY2tzIiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODM1NTU2NDksImV4cCI6MTk5OTEzMTY0OX0.1lG6w36s40K1FrNGIsixcUOQfwVMY-o_eXpdTcexHwc'
-secretKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp3c2tnZHVtcHZtcm5qdHhiZmhtIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTY4MzU1MjkxOCwiZXhwIjoxOTk5MTI4OTE4fQ.drOZ6wIyB9Vp2T85ydlNvNuDDNyPbMVeAGQmM21e3-w'
+supabaseKey = #Replace with ur supabase
+
+secretKey = #Replace with ur supabase
 
 supabase: Client = create_client(supabaseUrl, supabaseKey)
 
