@@ -1,7 +1,24 @@
 # Eye Drowsiness Detection Project
 
-This project aims to develop a system for detecting drowsiness in drivers using machine learning techniques. It consists of three main modules: the machine learning (ML) module, the frontend module, and the backend module. 
+This project aims to develop a system for detecting drowsiness in drivers using machine learning techniques. It consists of three main modules: the machine learning (ML) module, the frontend module, and the backend module.
 
+# Note Replace supabase fields in db/db.py
+### Running the Frontend Module
+
+To run the frontend module, follow these steps:
+
+1. Open a terminal and navigate to the frontend module directory: `cd frontend`.
+2. Install the required dependencies by running: `npm install`.
+3. Start the development server by running: `npm run dev`.
+4. The frontend module should now be running, and you can access it by opening the provided URL in a web browser.
+
+### Running the Backend Module
+
+To run the backend module, follow these steps:
+
+1. Open a terminal and navigate to the backend module directory.
+2. Run the main Python file using the command: `python main.py`.
+3. The backend module should now be running.
 ## Machine Learning Module
 
 The ML module focuses on implementing eye detection techniques, collecting training data, selecting and training ML models, and evaluating the performance of the drowsiness prediction system. The module employs computer vision algorithms to detect eyes in images or video frames, extract relevant features, and feed them into ML models for drowsiness prediction. Various ML models can be experimented with, such as convolutional neural networks (CNNs), support vector machines (SVMs), or recurrent neural networks (RNNs). The module also defines evaluation metrics to assess the accuracy and efficiency of the trained models.
@@ -30,22 +47,7 @@ To set up the project locally, follow these steps:
 6. Update the configuration files of the frontend and backend modules with the appropriate API keys and connection details.
 7. Start the ML module, frontend module, and backend module, and ensure they are running without errors.
 
-### Running the Frontend Module
 
-To run the frontend module, follow these steps:
-
-1. Open a terminal and navigate to the frontend module directory: `cd frontend`.
-2. Install the required dependencies by running: `npm install`.
-3. Start the development server by running: `npm run dev`.
-4. The frontend module should now be running, and you can access it by opening the provided URL in a web browser.
-
-### Running the Backend Module
-
-To run the backend module, follow these steps:
-
-1. Open a terminal and navigate to the backend module directory.
-2. Run the main Python file using the command: `python main.py`.
-3. The backend module should now be running.
 
 ## How to Use
 
